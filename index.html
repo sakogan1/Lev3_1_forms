@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@1,500&family=Open+Sans:ital@1&family=Roboto:ital,wght@1,300&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <title>Fonts generator</title>
+</head>
+<body>
+    <header>
+        <div></div>
+    </header>
+<main>
+    <div class="fonts">
+        <p>Font generator</p>
+        <div class="wrapper">
+        <input type="range" value="" onchange="changeSize()" id="range">
+        <select name="fonts" id="font-select" onchange="changeFont()" >
+            <option value="">--Select font--</option>
+            <option value="'Bodoni Moda', serif">'Bodoni Moda', serif</option>
+            <option value="'Open Sans', sans-serif">'Open Sans', sans-serif</option>
+            <option value="'Roboto', sans-serif">'Roboto', sans-serif</option>
+            <option value="'Yusei Magic', sans-serif">'Yusei Magic', sans-serif</option>
+        </select>
+        <input type="text" name="textarea" id="internaltext" oninput="writeText()">
+    </div>
+        <h1 id="areaToChange">Test</h1>
+    </div>
+</main>
+    <script src="/assets/js/main.js">
+    </script>
+</body>
+</html>

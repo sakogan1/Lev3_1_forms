@@ -1,0 +1,38 @@
+
+header div{
+    height: 30vh;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+   transition: all ease 2s;
+    transform: scale(1,1);
+}
+p{
+    font-size: large;
+    color: chartreuse;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fonts{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #666;
+    width:500px;
+    height:300px;
+    -webkit-box-shadow: 9px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    9px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         9px 3px 5px 0px rgba(50, 50, 50, 0.75);
+}
