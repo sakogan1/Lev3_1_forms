@@ -5,7 +5,6 @@ function changeSize(){
     console.log(size)
     document.getElementById("areaToChange").style.fontSize = size
 }
-
 function changeFont(){
     var font = document.getElementById("font-select").value
     console.log(font)
